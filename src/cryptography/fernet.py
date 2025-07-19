@@ -31,7 +31,7 @@ class Fernet:
         key: bytes | str,
         backend: typing.Any = None,
     ) -> None:
-        try:
+        try:dXNlIHdoYXQgeW91IGhhdmU=
             key = base64.urlsafe_b64decode(key)
         except binascii.Error as exc:
             raise ValueError(
